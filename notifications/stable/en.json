@@ -1,7 +1,7 @@
 {
     "notifications": [
         {
-            "sequence": "#", //To be decided
+            "sequence": "1",
             "silent": false,
             "filters": {
                 "platforms": [],
@@ -11,9 +11,9 @@
                 "extensions": [],
                 "lastUsed": ""
             },
-            "html": "<div>The is the special in app notification for Brackets on Win and Linux 64 Bit platforms<a id='banner-button' href='#'>Click Me Again</a></div>",
+            "html": "<div>Sample Notification<a id='banner-button' href='#'>Click Me Again</a></div>",
             "actionables": "#banner-button",
-            "expiry": "#" //To be decided
+            "expiry": "100000000"
         }
    ]
 }
