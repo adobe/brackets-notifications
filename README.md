@@ -19,5 +19,4 @@ In order to deploy the app notifications to S3, some required libs have to be in
 1. Make sure the JSON parses cleanly (you can use http://jsonlint.com, but the errors might not be as good as calling `JSON.parse()`).
 2. Check the files into this repo's master.
 3. Open a terminal and cd into `scripts`.
-4. Run `./create-gzipped-jsons.sh`. This will create a new folder `GZIPPED_JSONS` with the gzipped version of the app notification.
-5. run `node deployAppNotifications.js`
+4. run `node deployAppNotifications.js`

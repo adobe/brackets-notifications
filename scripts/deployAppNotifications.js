@@ -6,7 +6,7 @@ var AWS   = require('aws-sdk'),
     path  = require('path');
 
 // Constant
-var BASE_PATH_GZIPPEDJSONS = './GZIPPED-JSONS';
+var BASE_PATH = '../notifications/stable';
 
 function getConfig() {
     var config;
@@ -50,18 +50,17 @@ function upload() {
             sslEnabled: true
         });
 
-    fs.readdir(BASE_PATH_GZIPPEDJSONS, function (err, files) {
+    fs.readdir(BASE_PATH, function (err, files) {
         if (!files) {
-            console.error('Please run ./create-gzipped-jsons.sh before running this script');
+            console.error('No files to upload');
         } else {
             files.forEach(function (file) {
-                var content = fs.readFileSync(path.join(BASE_PATH_GZIPPEDJSONS, file));
+                var content = fs.readFileSync(path.join(BASE_PATH, file));
 
                 s3.putObject({
                     Bucket: config['s3.bucket'],
                     Key: file,
                     ACL: 'public-read',
-                    ContentEncoding: 'gzip',
                     ContentType: 'application/json',
                     Body: content
                 }, function (err, data) {
