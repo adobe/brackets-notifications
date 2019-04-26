@@ -1,0 +1,19 @@
+{
+    "notifications": [
+        {
+            "sequence": "1",
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "extensions": [],
+                "lastUsed": ""
+            },
+            "html": "<div>Sample Notification<a id='banner-button' href='#'>Click Me Again</a></div>",
+            "actionables": "#banner-button",
+            "expiry": "100000000"
+        }
+   ]
+}
