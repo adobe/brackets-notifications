@@ -1,0 +1,19 @@
+{
+    "notifications": [
+        {
+            "sequence": 1556735400000,
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "extensions": [],
+                "lastUsed": ""
+            },
+            "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>Nous aimerions savoir comment votre utilisation de Brackets a évolué avec l’introduction des nouveaux outils et paradigmes.</div><div style='display: inline-block;float: right;background-color: #016dc4;border: 1px solid  #016dc4;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);border-radius: 4px;padding: 7px 14px;margin-right: 65px;'><a id='banner-button' href='https://adobe.ly/bracketsinappsurvey' style='color: white;text-decoration: none;font-weight: 500;'>Merci de répondre à notre enquête.</a></div></div>",
+            "actionables": "#banner-button",
+            "expiry": 1559413800000
+        }
+   ]
+}
