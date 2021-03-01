@@ -1,6 +1,35 @@
 {
     "notifications": [
         {
+            "sequence": 1614450600000,
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "lastUsed": ""
+            },
+            "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>On September 1, 2021, Adobe will end support for Brackets. If you would like to continue using, maintaining, and improving Brackets, you may fork the project on <a id='banner-button' class='actionable' href='https://github.com/adobe/brackets' style='text-decoration: none;font-weight: 500;'>GitHub</a>. Brackets users are encouraged to switch to <a class='actionable' href='https://code.visualstudio.com/' style='text-decoration: none;font-weight: 500;'>Visual Studio Code</a> for code editing.</div></div>",
+            "actionables": ".actionable",
+            "expiry": 1630434600000
+        },
+        {
+            "sequence": 1614450600000,
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "lastUsed": "",
+                "extensions": []
+            },
+            "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>On September 1, 2021, Adobe will end support for Brackets. If you would like to continue using, maintaining, and improving Brackets, you may fork the project on <a id='banner-button' class='actionable' href='https://github.com/adobe/brackets' style='text-decoration: none;font-weight: 500;'>GitHub</a>. Brackets users are encouraged to switch to <a class='actionable' href='https://code.visualstudio.com/' style='text-decoration: none;font-weight: 500;'>Visual Studio Code</a> for code editing.</div></div>",
+            "actionables": ".actionable",
+            "expiry": 1630434600000
+        },
+        {
             "sequence": 1556735400000,
             "silent": false,
             "filters": {

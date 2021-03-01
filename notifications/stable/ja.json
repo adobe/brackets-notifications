@@ -1,6 +1,35 @@
 {
     "notifications": [
         {
+            "sequence": 1614450600000,
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "lastUsed": ""
+            },
+            "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>2021 年 9 月 1 日、Adobe は Brackets のサポートを終了します。Brackets の使用、保守、改善を継続する場合は、<a id='banner-button' class='actionable' href='https://github.com/adobe/brackets' style='text-decoration: none;font-weight: 500;'>GitHub</a> でプロジェクトをフォークできます。Brackets のユーザーは、コード編集を <a class='actionable' href='https://code.visualstudio.com/' style='text-decoration: none;font-weight: 500;'>Visual Studio Code</a> に切り替えることをお勧めします。</div></div>",
+            "actionables": ".actionable",
+            "expiry": 1630434600000
+        },
+        {
+            "sequence": 1614450600000,
+            "silent": false,
+            "filters": {
+                "platforms": [],
+                "version": "1.14",
+                "locales": [],
+                "builds": [],
+                "lastUsed": "",
+                "extensions": []
+            },
+            "html": "<div style='display: block;height: auto;font-size: 16px;'><div style='display: inline-block;float: left;padding: 7px 65px 7px 5px;font-weight: 500;'>2021 年 9 月 1 日、Adobe は Brackets のサポートを終了します。Brackets の使用、保守、改善を継続する場合は、<a id='banner-button' class='actionable' href='https://github.com/adobe/brackets' style='text-decoration: none;font-weight: 500;'>GitHub</a> でプロジェクトをフォークできます。Brackets のユーザーは、コード編集を <a class='actionable' href='https://code.visualstudio.com/' style='text-decoration: none;font-weight: 500;'>Visual Studio Code</a> に切り替えることをお勧めします。</div></div>",
+            "actionables": ".actionable",
+            "expiry": 1630434600000
+        },
+        {
             "sequence": 1556735400000,
             "silent": false,
             "filters": {
